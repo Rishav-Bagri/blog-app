@@ -23,7 +23,7 @@ export const BlogCard = ({id, authorName, title, content, publishedDate }: BlogC
                 </div>
                 <span className="flex mx-2 size-1  bg-slate-300 rounded-full"></span>
                 <div className="font-thin text-gray-500 text-md">
-                    {publishedDate}
+                    {publishedDate.slice(0,10)}
                 </div>
             </div>
         </div>
