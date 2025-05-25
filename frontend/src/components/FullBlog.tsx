@@ -9,7 +9,7 @@ interface BlogType  {
   }
 
 export const FullBlog=({blog}:{blog:BlogType})=>{
-    return <div className="grid grid-cols-12 lg:px-65 md:px-50 sm:px-35 px-10 pt-10">
+    return <div className="grid pb-25 grid-cols-12 lg:px-65 md:px-50 sm:px-35 px-10 pt-10">
         <div className="col-span-9 ">
             <div className="text-4xl md:text-6xl font-bold break-words overflow-hidden">
                 {blog.title}
@@ -18,7 +18,7 @@ export const FullBlog=({blog}:{blog:BlogType})=>{
             <div className="py-6 font-thin text-gray-500 text">
                 Posted on : {blog.createdAt.slice(0,10)}
             </div>
-            <div className="text-lg">
+            <div className="text-lg whitespace-pre-line">
                 {blog.content}
             </div>
             
