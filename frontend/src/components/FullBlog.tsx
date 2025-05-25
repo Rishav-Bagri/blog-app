@@ -19,7 +19,7 @@ export const FullBlog=({blog}:{blog:BlogType})=>{
                 Posted on : {blog.createdAt.slice(0,10)}
             </div>
             <div className="text-lg">
-                {blog.content}
+               <pre> {blog.content} </pre>
             </div>
             
         </div>
