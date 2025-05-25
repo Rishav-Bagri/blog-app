@@ -1,3 +1,3 @@
 # blog-app
 
-https://blog-app-nine-drab.vercel.app/publish
+https://blog-app-nine-drab.vercel.app
