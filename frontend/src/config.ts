@@ -1,0 +1,1 @@
+export const BACKEND_URL :string="https://medium-backend.bagririshav01.workers.dev/api/v1"
