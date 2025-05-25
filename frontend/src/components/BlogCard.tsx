@@ -35,7 +35,7 @@ export const BlogCard = ({id, authorName, title, content, publishedDate }: BlogC
         </div>
         <div className="flex items-center text-gray-600 mt-7 gap-1 mb-2 text-sm  w-fit px-1 rounded-full">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-clock-fading-icon lucide-clock-fading"><path d="M12 2a10 10 0 0 1 7.38 16.75" /><path d="M12 6v6l4 2" /><path d="M2.5 8.875a10 10 0 0 0-.5 3" /><path d="M2.83 16a10 10 0 0 0 2.43 3.4" /><path d="M4.636 5.235a10 10 0 0 1 .891-.857" /><path d="M8.644 21.42a10 10 0 0 0 7.631-.38" /></svg>
-        {`${Math.ceil((content.length ) / 100)} ${Math.ceil((content.length ) / 100) === 1 ? "minute" : "minutes"
+        {`${Math.ceil((content.length ) / 250)} ${Math.ceil((content.length ) / 250) === 1 ? "minute" : "minutes"
                 } read`}
         </div>
         <div className="border-1 border-slate-100 border-bottom"></div>
